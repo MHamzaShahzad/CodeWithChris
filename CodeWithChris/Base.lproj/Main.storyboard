@@ -16,25 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iaa-1C-dxg">
-                                <rect key="frame" x="184" y="237" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="muj-hR-HRS">
-                                <rect key="frame" x="184" y="322" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rrJ-Re-EJz">
-                                <rect key="frame" x="184" y="410" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
-                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello World" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z3z-sV-TuA">
+                                <rect key="frame" x="163" y="437.5" width="88" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Iaa-1C-dxg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="BHS-UX-JeH"/>
-                            <constraint firstItem="muj-hR-HRS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="bLy-SZ-pnC"/>
-                            <constraint firstItem="rrJ-Re-EJz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="s20-aZ-nZJ"/>
+                            <constraint firstItem="Z3z-sV-TuA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AMm-0J-6V9"/>
+                            <constraint firstItem="Z3z-sV-TuA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pB6-F0-hUG"/>
                         </constraints>
                     </view>
                 </viewController>
